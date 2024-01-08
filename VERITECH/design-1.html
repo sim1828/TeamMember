@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>veritech</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+    background-color:#58b074;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center; 
+}
+
+
+
+.logo {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 100px;
+        }
+
+        h1 {
+            margin: 0;
+            flex-grow: 1; 
+        }
+        .subheading {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .subheading-label {
+            color: #777;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        .team-card {
+    width: 200px;
+    height: 220px;
+    margin: 15px;
+    background-color: #9ddab0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card img {
+    width: 80px;
+    height: 85px;
+    border-radius: 150px;
+    margin-top: 10px;
+
+}
+
+
+        .team-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        
+
+        .member-info {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .member-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .member-role {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+    background-color:#58b074;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    height: 20px;
+    z-index: 1; 
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        position: static;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/veritechlogo.jpeg" alt="Company Logo" class="logo">
+        <h1>VeriTech Team Members</h1>
+    </header>
+    
+
+    <div class="subheading">
+        <div class="subheading-label">Marketing Team</div>
+    </div>
+
+    <div class="team-container">
+        <div class="team-card">
+            <img src="img/img1.jpeg" alt="John Doe">
+            <div class="member-info">
+                <div class="member-name">Zakir</div>
+                <div class="member-role">Sales Manager</div>
+                
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="img/img2.jpeg" alt="Bob Johnson">
+            <div class="member-info">
+                <div class="member-name">Basi</div>
+                <div class="member-role">Marketing Analyst</div>
+               
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img3.jpeg" alt="Bob Johnson">
+            <div class="member-info">
+                <div class="member-name">Bhuban</div>
+                <div class="member-role">Promotion Manager</div>
+               
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img4.jpeg" alt="Bob Johnson">
+            <div class="member-info">
+                <div class="member-name">Aashish</div>
+                <div class="member-role">Product Manager</div>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div class="subheading">
+        <div class="subheading-label">Development Team</div>
+    </div>
+
+    <div class="team-container">
+        <div class="team-card">
+            <img src="img/img5.jpeg" alt="Jane Smith">
+            <div class="member-info">
+                <div class="member-name">Harsh</div>
+                <div class="member-role">Front-end Developer</div>
+               
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="img/img6.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Abhishek</div>
+                <div class="member-role">Content Developer</div>
+               
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img7.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Carry</div>
+                <div class="member-role">Backend Developer</div>
+              
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img8.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Harsh</div>
+                <div class="member-role">Data Analyst</div>
+               
+            </div>
+        </div>
+    </div>
+    <div class="subheading">
+        <div class="subheading-label">Testing Team</div>
+    </div>
+
+    <div class="team-container">
+        <div class="team-card">
+            <img src="img/img1.jpeg" alt="Jane Smith">
+            <div class="member-info">
+                <div class="member-name">Zakir</div>
+                <div class="member-role">Manual Tester</div>
+              
+            </div>
+        </div>
+
+        <div class="team-card">
+            <img src="img/img2.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Basi</div>
+                <div class="member-role">Automation Tester</div>
+                
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img3.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Bhuban</div>
+                <div class="member-role">Software Tester</div>
+               
+            </div>
+        </div>
+        <div class="team-card">
+            <img src="img/img4.jpeg" alt="Alice Williams">
+            <div class="member-info">
+                <div class="member-name">Aashish</div>
+                <div class="member-role">UX Tester</div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 veritech. All rights reserved. Designed By Simran</p>
+    </footer>
+</body>
+</html>
